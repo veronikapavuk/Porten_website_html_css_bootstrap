@@ -1,0 +1,1156 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: normal;
+    visibility: hidden;
+}
+.body-div {
+    width: 1920px; 
+    /* width: 100%;  */
+}
+
+/* Хедер */
+.header-div {
+    display: flex;
+    /* justify-content:space-around; */
+    /* align-items: center; */
+    background-color: #000000;
+    color: #969696;
+    height: 44px;
+    font-family: 'PT Sans';
+    font-size: 12px;
+}
+.icon-phone {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 335px;
+}
+.contacts-for-360px {
+     display: none;
+}
+.contacts_log {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left:775px ;
+}
+.icon-exit {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+.link-exit a {
+    color: #969696;
+    text-decoration: none;
+}
+.link-exit a:hover {
+    color:#FFFFFF;
+}
+.contacts-for-470px {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F0F0F;
+    height: 80px;
+}
+.logo a {
+    font-family: 'Post No Bills Jaffna';
+    font-weight: 700;
+    font-size: 36px;
+    color:#FFFFFF;
+    text-decoration: none;
+    height: 49px;
+    margin: 15px 0px 16px;
+}
+/* .logo a:hover {
+    color: #5b504e;
+} */
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-link div a {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 31px 20px;
+    color: #969696;
+}
+.nav-link div a:hover {
+    background-color: #1F1F1F;
+    color:#FFFFFF;
+    padding: 31px 20px;
+} 
+/* .icon-basket {
+    width: 22px;
+    height: 22px;
+    margin: 29px 20px;
+} */
+.icon-chekaut svg {
+    width: 22px;
+    height: 22px;
+    margin: 29px 20px;
+}
+/* .icon-search {
+    width: 22px;
+    height: 22px;
+    margin: 29px 20px;
+} */
+.nav-link a svg:last-child {
+    width: 22px;
+    height: 22px;
+    margin: 29px 20px;
+}
+.icon-chekaut:hover path {
+    fill: #9d792a;
+}
+.icon-search_svg:hover{
+    fill: #9d792a;
+}
+
+/* Navbar Bootstrap 2  */
+.navbar {
+    background-color: #0F0F0F;
+    display: none;
+}
+.navbar-toggler {
+    border: 1px solid #504632;
+    color: #969696;
+}
+.container-fluid .logo {
+    color:#FFFFFF;
+} 
+.navbar-nav .nav-link {
+    color:#969696;
+    background-color: #00000036;
+}
+
+/* Банер */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Rectangle\ 3.png);
+    background-size: cover;
+    height: 810px; 
+    margin-bottom: 2px;
+} 
+main img {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 80px;
+    background-color: #0f0f0f79;
+    box-shadow: 0 0 1em black; 
+}
+main p {
+    color: #FFFFFF;
+    width: 730px;
+    height: 96px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Блок2 */
+.new-seasons {
+   display: flex;
+   justify-content: space-between;
+   color:#FFFFFF;
+   margin-top: 2px;
+}
+.seasons {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 1040px;
+    height: 730px;
+}
+.seasons h2 {
+    height: 39px;
+    /* margin-top: 93px; */
+    margin-bottom: 50px; 
+    font-family: 'Playfair Display';
+    font-weight:700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.border {
+    border-bottom: 1px solid #FFFFFF;
+    width: 120px;
+    height: 0px;
+    margin-bottom: 50px;
+}
+.clock-list {
+    display: flex;
+    margin: 0px 80px 0px 80px; 
+}
+.clock-border{
+    width: 260px;
+    height: 405px;
+    margin: 0px 25px; 
+} 
+.clock {
+    text-align: center;
+    background-color: #191B1C; 
+    width: 260px;
+    height: 325px;
+    padding: 55.5px 0px;
+} 
+a .clock:hover {
+    background-color:#504632;
+}
+/* .clock img {
+    width: 215px; ;
+    height: 214px;
+} */
+.img-1200-2 {
+    display: none;
+}
+.clock-border h3 {
+    width: 140px;
+    height: 24px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.clock-border p {
+    width: 92px;
+    height: 21px;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    color: #D0D0D0;
+    margin-bottom: 93px;
+}
+#carouselExample {
+    display: none;
+}
+.new-collection {
+    background-image: url(./Rectangle\ 8.png);
+    background-size: cover;
+    width: 880px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new-collection h2 {
+    height: 39px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    text-transform: uppercase;  
+    margin-bottom: 30px;
+    margin-top: 484px;
+}
+.border2 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 120px;
+    height: 0px;
+    margin-bottom: 40px;
+}
+.submit a {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 28px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 82px;
+    height: 23px;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.submit a:hover {
+    border: 1px solid #9d792a;
+    color: #D0D0D0; 
+} 
+
+/* Блок3 */
+.collektion {
+    display: flex;
+    background-color: #000000;
+    height: 600px;
+}
+.collektion div img {
+    width: 880px;
+}
+/* .img-1200-3 {
+    display: none;
+} */
+.collektion-2018 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 1040px;
+}
+.collektion-2018 h2 {
+    height: 39px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.border3 {
+    border-bottom: 1px solid #FFFFFF ;
+    width: 120px;
+    margin: 40px 0;
+}
+.collektion-2018 p {
+    width: 471px;
+    height: 173px;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+.submit2 a {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+}
+.submit2 a:hover {
+    border: 1px solid #9d792a;
+    color: #D0D0D0;
+} 
+
+/* Блок4 */
+.showcase {
+    height: 1289px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 406px 150px 405px;
+}
+.showcase-item {
+    width: 1109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showcase h2 {
+    color: #FFFFFF;
+    height: 48px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.border4 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 120px;
+    margin-bottom: 81px;
+}
+.showcase-in{
+    column-count: 4;
+    column-gap: 23px; 
+}
+.clock-border2 {
+    width: 260px;
+    height: 405px;
+    margin-bottom: 40px;
+} 
+.clock-border2 h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.clock-border2 p {
+    color: #D0D0D0;
+}
+#carouselExampleIndicators {
+    display: none;
+}
+
+/* Блок5 */
+.our-brends {
+    background-color: #0F0F0F;
+    height: 362px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-brends h2 {
+    height: 48px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.border5 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 120px;
+    margin-bottom: 40px;
+}
+.brends-img img {
+    width: 225px;
+    height: 94px;
+    margin: 0px 30px 80px;
+} 
+/* .brends-img svg {
+    width: 225px;
+    height: 94px;
+    margin: 0px 30px 80px;
+}
+.brends-img svg:hover {
+    color: #9d792a; 
+}  */
+
+/* Блок6 */
+footer {
+    display: flex;
+    height: 400px;
+    background-image: url(./Rectangle\ 15.png);
+    background-size: cover;
+    color: #FFFFFF;
+}
+.footer-container {
+    display: flex;
+}
+.about-shop {
+    display: flex;
+    flex-direction: column;
+    margin-right: 26px;
+} 
+.about-shop h2 {
+    height: 32px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 405px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.about-shop p {
+    width: 350px;
+    height: 147px;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    margin-left: 405px;
+    margin-bottom: 101px;
+}
+.div-for-960 {
+    display: flex;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+.categories h2 {
+    height: 32px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 80px; 
+    margin-bottom: 40px;
+}
+.first-line {
+    display: flex;
+    margin-left: 5px;
+} 
+.first-line a {
+    /* margin: 0px 10px 10px 31px; */
+    margin-left: 31px;
+}
+.second-line {
+    display: flex;
+    margin-bottom: 146px;
+}
+.second-line a {
+    margin-left: 26px; 
+}
+.second-line a:last-child {
+    margin: 0px 25px 0px 0px; 
+}
+.categories-link a {
+    display: flex;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    color: #D0D0D0;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 20px 20px 0px;
+    background-color: #0F0F0F;
+}
+.categories-link a:hover {
+    color: #9d792a;
+}
+.mail-list {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 72px;
+}
+.mail-list h2 {
+    height: 32px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.mail-list p {
+    width: 350px;
+    height: 42px;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    margin-bottom: 37px;
+}
+.mail-list input {
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+}
+.mail-list input[type="text"]::placeholder {
+    color:#D0D0D0;
+    /* opacity: 1; */
+}
+.mail-list button a {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+}
+.mail-list button {
+    background-color: #0F0F0F;
+    width: 140px;
+    height: 41px;
+}
+.mail-list a:hover {
+    color: #9d792a;
+} 
+.mail-list form {
+    display: flex;
+} 
+#carouselExampleFade {
+    display: none;
+}
+/* Блок7 */
+.last-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0F0F0F;
+    color: #D0D0D0;
+    height: 50px;
+    font-family: 'PT Sans'; 
+    font-size: 12px;
+}
+.last-line p:last-child {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1200px) {
+    .body-div {
+        width: 1200px;
+    }
+    
+    .contacts {
+        margin-left: 155px;
+    }
+    .contacts_log {
+        margin-left:415px ;
+    }
+
+/* Банер */
+    main {
+        background-image: url(./Preasure-image/Rectangle\ 3\ cut.png); 
+    }
+
+/* Блок2 */
+/* seasons */
+    .clock img:first-child {
+        display: none;
+    }
+    .img-1200-2 {
+        display: block;
+        width: 133px;
+        margin-left: 15px;
+    }
+    .clock {
+        width: 162px;
+        padding: 96.5px 0px; 
+    }
+    .clock-border {
+        width: 162px;
+        margin: 0px 10px;
+    }
+    .seasons {
+         width: 650px;  
+        /* width: 54%; */
+    }
+    .new-collection {
+        /* width: 550px; */
+    }
+
+/* Блок 3 */
+    .collektion div img {
+        display: none;
+    }
+    /* .img-1200-3 {
+        display: block;
+    } */
+    .collektion div:first-child {
+        background-image: url(./Preasure-image/Rectangle\ 9\ cut.png);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        width: 550px;
+        height: 600px;
+    }
+    .collektion-2018 {
+        width: 650px;
+        height: 600px;
+    } 
+/* Блок 4 */
+    .showcase {
+        height: 1200px; 
+        padding: 0px 253px 94px 252px;
+    }
+    .showcase-item {
+        /* width: 750px; */
+        width: 695px;
+    } 
+    .showcase h2 {
+        font-size: 32px;
+        margin-top: 75px;
+        margin-bottom: 40px;
+    }
+    /* .border4 {
+        margin-bottom: 50px;
+    } */
+    .clock-border2 {
+        width: 162px;
+        /* margin: 0px 20px; */
+        margin-bottom: 40px;
+    }
+    .clock-border2 h3 {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+/* Блок 6 */
+    footer {
+        background-image: url(./Preasure-image/Rectangle\ 15\ cut.png);
+    }
+    .about-shop h2 {
+        margin-left: 45px;
+    }
+    .about-shop p {
+        margin-left: 45px;
+    }
+} 
+
+@media (max-width: 960px) {
+    .body-div {
+        width: 960px;
+    }
+
+    .contacts {
+        margin-left: 95px;
+    }
+    .contacts_log {
+        margin-left:295px ;
+    }
+
+/* Блок2 */
+/* seasons */
+    .seasons {
+        width: 518px;  
+    /* width: 54%; */
+    } 
+    .clock-list {
+        display: none;
+    } 
+    #carouselExample {
+        display: block;
+    }
+    .clock img:first-child {
+        display: block;
+        width: 215px;
+        height: 214px;
+        margin-left: 22.5px;
+    } 
+    .img-1200-2 {
+        display: none;
+    }
+    .clock {
+        width: 260px;
+        height: 325px;
+        padding: 55.5px 0px;
+    }
+    .clock-border {
+        width: 260px;
+        margin: 0px 129px;
+    } 
+    .new-collection {
+        width: 442px; 
+    }
+
+/* Блок 3 */
+    .collektion div:first-child {
+        background-image: url(./Preasure-image/Rectangle\ 9\ cut.png);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        width: 442px;
+        height: 600px;
+    }
+    .collektion-2018 {
+        width: 518px;
+        height: 600px;
+    } 
+
+/* Блок 4 */
+    .showcase {
+        width: 960px; 
+        height: 700px;
+        padding: 0px 126px 46px 123px;
+    }
+    .showcase-item {
+        width: 711px;
+    } 
+    .showcase-in {
+        display: none;
+    }
+    #carouselExampleIndicators{
+        display: block;
+    }
+    .clock-border2 {
+        width: 260px;
+        margin-left: 225px;
+    } 
+
+/* Блок 5 */
+    .brends-img {
+        columns: 2;
+        text-align: center;
+    }
+    .our-brends {
+        height: 500px;
+    }
+
+/* Блок 6 */
+    footer {
+        width: 960px;
+        height: 400px;
+        justify-content: space-around;
+    }
+    /* .about-shop h2 {
+        margin-left: 45px;
+    } */
+    /* .about-shop p {
+        margin-left: 45px;
+    } */
+    .div-for-960 {
+        display: block;
+    }
+    .categories {
+        height: 200px;
+    }
+    .categories h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .mail-list {
+        height: 200px;
+        margin-left: 0px;
+    }
+    .mail-list h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .mail-list p {
+        margin-bottom: 10px;
+    } 
+}
+
+@media (max-width:760px) {
+    .body-div {
+        width: 760px;
+    }
+
+/* Хедер */ 
+    .contacts {
+        margin-left: 55px;
+    }
+    .contacts_log {
+        margin-left:180px ;
+    }
+    nav {
+        height: 70px;
+    }
+    .logo a {
+        margin: 10.5px 0px 10.5px; 
+    }
+    .nav-link div a {
+        padding: 31px 20px; 
+        padding: 26px 15px;
+    }
+    .nav-link div a:hover { 
+        padding: 31px 20px; 
+        padding: 26px 15px;
+    } 
+    .icon-chekaut svg { 
+         margin: 29px 20px; 
+         margin: 24px 15px;
+    }
+    .nav-link a svg:last-child {
+        margin: 24px 15px;
+    } 
+    
+/* Банер */
+    main p {
+        width: 645px;
+    }
+    
+/* Блок 2 */    
+    .seasons { 
+        width: 410px;  
+        /* width: 54%; */
+    }
+    .seasons h2 {
+        font-size: 34px;
+    }
+    .clock-border {
+        margin: 0px 43px; 
+    }
+    .new-collection { 
+        /* width: 350px;  */
+    }  
+    .new-collection h2 {
+        font-size: 32px;
+        text-align: center;
+    } 
+
+/* Блок 3 */
+    .collektion-2018 h2 {
+        font-size: 34px;
+    }
+    .collektion-2018 p {
+        width: 371px;
+        margin-bottom: 100px; 
+    }
+    .collektion div:first-child {
+        background-image: url(./Preasure-image/Rectangle\ 9\ cut.png);
+        background-size: cover;
+        /* width: 350px;  */
+    } 
+    .collektion-2018 {
+        /* width: 410px;  */
+    } 
+
+/* Блок 4  */
+    .showcase {
+        width: 760px;
+        padding: 0px 48.5px 46px 48.5px;
+    }
+    .clock-border2 {
+        width: 260px;
+        margin-left: 218px;
+    } 
+
+/* Блок 6 */
+    footer {
+        width: 760px;
+    }
+    .about-shop h2 {
+        margin-left: 0px;
+    }  
+    .about-shop p {
+        width: 260px;
+        margin-left: 0px;
+    } 
+}
+
+@media (max-width:470px) {
+    .body-div {
+        width: 470px;
+    }
+
+/* Хедер */
+    .contacts {
+        margin-left: 5px;
+    }
+    .contacts_log {
+        margin-left:115px ;
+    }
+    .icon-phone {
+        margin: 0px 5px;
+    } 
+    .contacts-for-1920px {
+        display: none;
+    } 
+    .contacts-for-470px {
+        display: block;
+    } 
+    .contacts-for-470px:nth-child(2) {
+        margin-left: 0px;
+    }
+    .icon-exit {
+        margin-right: 5px;
+    }
+    .link-exit {
+        font-weight:bolder;
+        /* font-weight: 700px;  */
+    }
+    nav {
+       display: none;
+    }  
+    .logo {
+        font-family: 'Post No Bills Jaffna';
+        font-weight: 700;
+        font-size: 32px;
+        height: 49px;
+    }
+    .nav-link div a {
+        /* visibility: hidden; */
+        display: none;
+    }  
+/* Navbar Bootstrap 2 */
+    .navbar {
+        display: block;
+    }
+
+/* Банер */
+    main p {
+        width: 430px;
+   }
+
+/* Блок 2 */
+    .new-seasons {
+        flex-direction: column;
+    }
+    .seasons {
+        width: 470px;
+        height: 730px;
+        padding: 93px 0px ;
+    }
+    .new-collection {
+        display: block;
+        width: 470px;
+        height: 730px;
+        text-align: center;
+    }
+    .new-collection h2 {
+        font-size: 34px;
+        margin-left: 47px;
+    } 
+    .border2 {
+        margin-left: 175px;
+    }  
+/* блок 3 */
+    .collektion div:first-child {
+        display: none; 
+    }
+    .collektion-2018 {
+        background-image: url(./Preasure-image/Rectangle\ 9\ cut.png);
+    } 
+
+/* Блок 4 */
+    .showcase {
+        width: 470px;
+        /* padding: 0px 48.5px 46px 48.5px; */
+        padding: 0px 11px 10px 11px;
+    }
+    .clock-border2 {
+        /* width: 260px; */
+        /* margin-left: 218px; */
+        margin-left: 94px; 
+    } 
+    .showcase-item {
+        width: 460px;
+    }
+    .showcase-item h2 {
+        font-size: 34px;
+    }
+
+/* Блок 5 */
+    .brends-img img {
+        /* columns: 2; */
+        margin: 0px; 
+        width: 200px;
+    }
+    .our-brends {
+        padding-left: 10px;
+    }
+
+/* Блок 6*/
+    footer {
+        width: 470px;
+        background-image: url(./Preasure-image/Rectangle\ 15\ cut\ 470.png); 
+    }
+    .footer-container {
+        display: none;
+    }
+    #carouselExampleFade {
+        display: block; 
+        /* width: 460px; */
+        /* width: 100%; */
+    }  
+    .categories {
+        margin: 100px 0px ;
+    }
+    .mail-list {
+        margin: 100px 0px;
+    }  
+}
+
+@media (max-width:360px) {
+    .body-div {
+        width: 360px;
+    }
+
+/* Хедер */
+    .contacts-for-470px {
+        display: none;
+    }  
+    .contacts-for-360px {
+        display: block;
+        line-height: normal;
+        font-size: x-small;
+    }
+    .contacts_log {
+        margin-left:90px ;
+    }
+    .icon-chekaut {
+        display: none;
+    }
+    .icon-search_svg {
+        display: none;
+    }
+
+/* Банер */
+    main p {
+        width: 340px;
+    }
+
+/* Блок 2 */
+    .seasons {
+        width: 360px;
+    }
+
+    .clock img:first-child {
+        display: none;
+    } 
+    .clock img:nth-child(2) {
+        display: block;
+    } 
+    .clock {
+        width: 162px;
+        padding: 96.5px 0px; 
+    }
+    .clock-border {
+        width: 162px;
+        margin: 0px 62px;
+    } 
+    .new-collection {
+        width: 360px;
+    }
+    .new-collection h2 {
+        margin-left: 0px;
+    } 
+    .border2 {
+        margin-left: 120px;
+    }  
+    
+/* Блок 3 */
+    .collektion-2018 {
+        width: 360px;
+    }
+    .collektion-2018 p {
+        width: 340px;
+    }
+
+/* Блок 4 */
+    .showcase {
+        width: 360px;
+    /* padding: 0px 48.5px 46px 48.5px; */
+    /* padding: 0px 11px 10px 11px; */
+    }
+    .showcase-item {
+    /* width: 338px - ширина каруселі(до якої прирівнювала showcase-item); */
+        width: 338px;
+    }
+    .showcase-item h2 {
+        font-size: 26px;
+    }
+    .border4 {
+        margin-left: 13px;
+    }
+    /* .clock-border2 {  */
+        /* margin-left: 94px;  */
+        /* margin: auto; */
+    /* }   */
+    .clock img:first-child {
+        display: none;
+    } 
+    .clock img:nth-child(2) {
+        display: block;
+    } 
+
+/* Блок5 */
+    .brends-img img {
+        /* columns: 2; */
+        margin: 0px; 
+        /* width: 200px; */
+        width: 160px;
+    }
+
+/* Блок 6 */
+    footer {
+        width: 360px;
+    }
+    .mail-list {
+        width: 320px;
+    } 
+}
+   
